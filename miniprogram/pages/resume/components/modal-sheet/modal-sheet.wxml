@@ -1,0 +1,16 @@
+<root-portal>
+  <view catch:touchmove="() => void">
+    <view wx:if="{{rendered}}" class="mask" data-show="{{show}}" bind:tap="handleTapMask"></view>
+    <view wx:if="{{rendered}}" class="modal-sheet" data-show="{{show}}" bind:tap="handleTapModalSheet">
+      <view class="modal-sheet-header">
+        <view class="modal-sheet-title">{{title}}</view>
+        <view class="modal-sheet-okbutton" wx:if="{{okButton}}" bind:tap="handleTapOkButton">{{okButtonText}}</view>
+      </view>
+      <view class="modal-sheet-content">
+        <scroll-view scroll-x="{{false}}" scroll-y="{{true}}">
+          <slot></slot>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+</root-portal>

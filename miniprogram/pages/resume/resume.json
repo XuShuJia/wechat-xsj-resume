@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "welcome-title": "components/welcome-title/welcome-title",
+    "my-information": "components/my-information/my-information",
+    "professional-technology": "components/professional-technology/professional-technology",
+    "work-experience": "components/work-experience/work-experience",
+    "project-experience": "components/project-experience/project-experience",
+    "contact-me": "components/contact-me/contact-me"
+  }
+}

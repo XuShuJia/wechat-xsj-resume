@@ -1,0 +1,8 @@
+<block-container custom-class="welcome-title">
+  <view class="welcome-text">
+    <text>Hello~</text>
+  </view>
+  <view class="title-text">
+    <text>许树佳的简历（前端）</text>
+  </view>
+</block-container>

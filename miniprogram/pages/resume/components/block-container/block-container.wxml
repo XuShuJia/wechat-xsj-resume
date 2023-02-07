@@ -1,0 +1,8 @@
+<view class="block-container custom-class">
+  <view wx:if="{{title}}" class="container-title">
+    <text>{{title}}</text>
+  </view>
+  <view class="container-content">
+    <slot></slot>
+  </view>
+</view>

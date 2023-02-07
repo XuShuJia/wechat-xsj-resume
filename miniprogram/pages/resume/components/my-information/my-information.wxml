@@ -1,0 +1,10 @@
+<block-container title="个人信息">
+  <text-row>姓名：许树佳</text-row>
+  <text-row>性别：男</text-row>
+  <text-row>年龄：26岁</text-row>
+  <text-row>民族：汉族</text-row>
+  <text-row>籍贯：汕头市</text-row>
+  <text-row>学历：大专（计算机专业）</text-row>
+  <text-row>政治面貌：群众</text-row>
+  <text-row>工作经验：4年</text-row>
+</block-container>

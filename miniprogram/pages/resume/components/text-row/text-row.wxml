@@ -1,0 +1,5 @@
+<view class="text-row">
+  <text>
+    <slot></slot>
+  </text>
+</view>

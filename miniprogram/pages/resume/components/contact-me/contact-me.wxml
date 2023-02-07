@@ -1,0 +1,20 @@
+<block-container title="联系方式">
+  <view class="button-container">
+    <button bind:tap="handleOpenAddWechatModalSheet">添加微信</button>
+    <modal-sheet
+      open="{{openAddWechatModalSheet}}"
+      title="长按二维码添加微信"
+      okButtonText="关闭"
+      bind:close="handleCloseAddWechatModalSheet"
+    >
+      <view class="wechat-qrcode">
+        <image 	show-menu-by-longpress mode="widthFix" src="../../../../assets/wechat-qrcode.jpeg"/>
+      </view>
+    </modal-sheet>
+  </view>
+  <view class="button-container">
+    <button bind:tap="handleTapCallPhone">
+      手机 13428342592
+    </button>
+  </view>
+</block-container>
